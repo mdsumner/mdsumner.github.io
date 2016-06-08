@@ -1,0 +1,10 @@
+
+
+# Topology from a Manifold perspective
+
+* Areas, Lines and Points have just 2-value coordinates, X/Y or Longitude/Latitude
+* Lines and Areas are composed of linear strings, like simple features
+* Space-filling, i.e. inside vs. out for Areas is done using the even-odd rule
+* Pathologies in topology a la simple features are dealt with on the fly by background constrained Delaunay Triangulation, and re-composition to linear strings by tracing cycles in the mesh
+* Explicit pathology fixing is available via Normalize Topology and Normalize Metric
+
