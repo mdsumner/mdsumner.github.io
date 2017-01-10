@@ -1,8 +1,11 @@
 ---
-title: 'R spatial: 2017'
-author: "Michael Sumner"
-date: 10 January 2017
-output: html_document
+layout: post
+title:  "R spatial in 2017"
+date:   2017-01-10
+published: true
+status: process
+draft: false
+tags: R 
 ---
 
 This document is a broad overview of what I see as most relevant to future spatial, for 2017 and beyond. I've tried to be as broad as possible, without going into too much detail, but it's also quite personal and opinionated. 
@@ -18,7 +21,7 @@ Personally, I have learnt quite a lot recently about the broader context within 
 * point clouds
 * mapview and leaflet
 * simple features in other packages
-* "exotic types"" in sf
+* "exotic types" in sf
 * spatial data that simple features cannot support
 * htmlwidgets and plotly
 
@@ -120,3 +123,4 @@ We could provide smart geo-spatial finite element forms (triangulations, quads),
 I'm keen to see how ggvis and ggplot2 represent geometric types for objects that shared vertices, such as intervals and bar charts, and how we can put in indexed data structures (unlike what ggraph is doing, it builds a mesh from a group of coordinates, you can't provide it with and index-mesh).  I think we can build spatial structures that can store all of these things, so we could throw sf at ggplot2, and use the output as a kind of super-form that knows how to wrap it up into an interactive 4D plot, how to display its primitives etc. etc. 
 
 GIS itself needs what we can already do in R, it's not a target we are aspring to it's the other way around. 
+
